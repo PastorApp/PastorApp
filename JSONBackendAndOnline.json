@@ -1,0 +1,151 @@
+{"results":[
+{
+    "concertInformation": {
+        "date": "19 de noviembre",
+        "place" : "Madrid",
+        "endPoint" : "Teatro Real",
+        "ticketsPurchase" : [{
+            "entradas.com" : "http://www.entradas.com/pastora-soler-entradas.html?affiliate=EES&doc=artistPages/tickets&fun=artist&action=tickets&kuid=495589",
+            "tiketmaster" : "https://www.ticketmaster.es/artist/pastora-soler-entradas/879086?language=es-es",
+            "elcorteingles" : "https://www.elcorteingles.es/entradas/search?Ntt=pastora+soler&department_nicename=entradas"
+        }]
+    },"lastAlbum": {
+        "title":"La Calma",
+        "links" : {
+            "itunes" : "https://itunes.apple.com/es/album/la-calma/id1265174898",
+            "spotify" : "https://open.spotify.com/user/1153200606/playlist/4gY8mrdOksG1s6KXTMICzC",
+            "amazon" : "https://www.amazon.es/Calma-Edición-Firmada-Pastora-Soler/dp/B074K8D24Z"
+        }
+    },"discography" : [
+        {   
+            "title": "Nuestras coplas",
+            "year" : "1994",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/nuestras-coplas/id39867783",
+                "spotify": "https://open.spotify.com/album/4IDZWeLHYKjBOP19QbvHGE",
+                "amazon" : "https://www.amazon.es/Nuestras-Coplas-Pastora-Soler/dp/B00006L6EP"
+            }
+        },{   
+            "title": "El mundo que soñé",
+            "year" : "1996",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/nuestras-coplas/id39867783",
+                "spotify": "https://open.spotify.com/album/4IDZWeLHYKjBOP19QbvHGE",
+                "amazon" : "https://www.amazon.es/Nuestras-Coplas-Pastora-Soler/dp/B00006L6EP"
+            }
+        },{   
+            "title": "Fuente De Luna",
+            "year" : "1999",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/fuente-de-luna/id693761131",
+                "spotify": "https://open.spotify.com/album/1bV2WdtgUySao3BOIZXAre",
+                "amazon" : "https://www.amazon.es/Fuente-Luna-Pastora-Soler/dp/B00004S2OZ"
+            }
+        },{   
+            "title": "Corazon congelado",
+            "year" : "2001",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/corazón-congelado/id692355040",
+                "spotify": "https://open.spotify.com/album/7rBoIXlhaXs9kQtZUl3lOj",
+                "amazon" : "https://www.amazon.es/Corazon-Congelado-Pastora-Soler/dp/B008QEHSSO"
+            }
+        },{   
+            "title": "Deseo",
+            "year" : "2002",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/deseo/id693783891",
+                "spotify": "https://open.spotify.com/album/4pPtswpi3XkLdquj3vGctA",
+                "amazon" : "https://www.amazon.es/Deseo-Pastora-Soler/dp/B01K8NEMQ6"
+            }
+        },{   
+            "title": "Pastora Soler",
+            "year" : "2005",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/deseo/id693783891",
+                "spotify": "https://open.spotify.com/album/4pPtswpi3XkLdquj3vGctA",
+                "amazon" : "https://www.amazon.es/Pastora-Soler/dp/B000LZ5I3S/ref=sr_1_11?s=music&ie=UTF8&qid=1507190347&sr=1-11"
+            }
+        },{   
+            "title": "Toda mi verdad",
+            "year" : "2007",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/deseo/id693783891",
+                "spotify": "https://open.spotify.com/album/4pPtswpi3XkLdquj3vGctA",
+                "amazon" : "https://www.amazon.es/Toda-Mi-Verdad-Pastora-Soler/dp/B000SQD0OE"
+            }
+        },{   
+            "title": "Bendita Locura",
+            "year" : "2009",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/bendita-locura/id312435121",
+                "spotify": "https://open.spotify.com/user/beita.ceuta/playlist/5AwZpHl1GxFd3vkK2gs8rC",
+                "amazon" : "https://www.amazon.es/Pastora-Soler-Bendita-locura-CDs-vinilos/s?ie=UTF8&page=1&rh=n%3A599373031%2Ck%3APastora%20Soler%20-%20Bendita%20locura"
+            }
+        },{   
+            "title": "Una mujer como yo",
+            "year" : "2011",
+            "links" :{
+                "itunes":"https://itunes.apple.com/nz/album/una-mujer-como-yo-eurov%C3%ADsión/id511720927",
+                "spotify": "https://open.spotify.com/album/31ST6aLORrPkxJBBQ0W2Xt",
+                "amazon" : "https://www.amazon.es/Una-Mujer-Como-Pastora-Soler/dp/B005TQA7EY"
+            }
+        },{   
+            "title": "Conóceme",
+            "year" : "2013",
+            "links" :{
+                "itunes":"https://itunes.apple.com/es/album/conóceme/id688625075",
+                "spotify": "https://open.spotify.com/user/119446827/playlist/0T3I8C3MnAixUPNNLlP5eT",
+                "amazon" : "https://www.amazon.es/Conóceme-Pastora-Soler/dp/B00EWJ3Z52"
+            }
+        }
+    ],"media":{
+        "videos":[
+        {
+            "url": "https://www.youtube.com/watch?v=C30fQ5BpnEY",
+            "thumbnail": "http://ourserver.com/images/thumb1.png"
+        },{
+            "url": "https://www.youtube.com/watch?v=W7y1pvW60ng",
+            "thumbnail": "http://ourserver.com/images/thumb1.png"    
+        },{
+            "url": "http://",
+            "thumbnail": "http://"    
+        }],
+        "images": [
+            {
+                "url":"http://",
+                "thumbnai": "http://"
+            },{
+                "url":"http://",
+                "thumbnai": "http://"
+            },{
+                "url":"http://",
+                "thumbnai": "http://"
+            },{
+                "url":"http://",
+                "thumbnai": "http://"
+            },{
+                "url":"http://",
+                "thumbnai": "http://"
+            },{
+                "url":"http://",
+                "thumbnai": "http://"
+            }
+        ]
+    }, "social":{
+        "twitter":{
+
+        },
+        "facebook":{
+
+        }
+    },"aboutArtist":{
+        "biography" : "https://www.buscabiografias.com/biografia/verDetalle/7846/Pastora%20Soler",
+        "linkToDiscography" : "http://www.lahiguera.net/musicalia/artistas/pastora_soler/discos.php",
+        "linkToWikiPedia":"https://es.wikipedia.org/wiki/Pastora_Soler"
+    },"events":{
+        "nextEvents" : "",
+        "soonEvents" : ""
+    }
+    }    
+]}
+
