@@ -11,9 +11,12 @@ import Foundation
 public class LastAlbumEntity{
     
     public let title: String
+    public let text: String
+    public let links: [String]
+    public let songs: [SongEntity]
     
-    public init (title: String){
-        self.title = title
+    public init (title: String, text:String, links: [String], songs: [SongEntity]){
+        (self.title, self.text, self.links, self.songs) = (title, text, links, songs)
     }
     
 }
