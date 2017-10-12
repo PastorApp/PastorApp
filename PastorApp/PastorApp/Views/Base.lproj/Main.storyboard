@@ -324,7 +324,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="srs-EM-4VL" secondAttribute="height" multiplier="7:6" id="uhO-Wn-Wms"/>
                                 </constraints>
-                                <state key="normal" title="Button" backgroundImage="pictures"/>
+                                <state key="normal" backgroundImage="pictures"/>
                                 <connections>
                                     <segue destination="zjT-eI-B0Q" kind="show" identifier="pictureShowCollection" id="Foc-WP-yee"/>
                                 </connections>
@@ -334,7 +334,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="o7Q-dH-ekQ" secondAttribute="height" multiplier="7:6" id="UvR-qW-FhZ"/>
                                 </constraints>
-                                <state key="normal" title="Button" backgroundImage="video"/>
+                                <state key="normal" backgroundImage="video"/>
                                 <connections>
                                     <segue destination="9eL-oC-STX" kind="show" identifier="videoShowCollection" id="uUB-WD-GNk"/>
                                 </connections>

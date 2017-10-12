@@ -12,8 +12,11 @@ class MediaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        internetTest()
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +34,11 @@ class MediaViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+    func internetTest(){
+        if !Reachability.isConnectedToNetwork(){
+            alertControllerToView(message: "Necesita tener acceso a internet para poder usar esta aplicacion")
+        }
+    }
 
 }

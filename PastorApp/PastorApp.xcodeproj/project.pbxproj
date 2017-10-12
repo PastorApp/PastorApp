@@ -34,6 +34,9 @@
 		5170A3291F8F58A700612C09 /* AlbumsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5170A3281F8F58A700612C09 /* AlbumsFactory.swift */; };
 		5170A32B1F8F590D00612C09 /* ConcertsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5170A32A1F8F590D00612C09 /* ConcertsFactory.swift */; };
 		5170A32D1F8F599200612C09 /* ImagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5170A32C1F8F599200612C09 /* ImagesFactory.swift */; };
+		51AB2D161F8F613E008150C2 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB2D151F8F613E008150C2 /* Reachability.swift */; };
+		51AB2D181F8F615E008150C2 /* String+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB2D171F8F615E008150C2 /* String+Data.swift */; };
+		51AB2D1A1F8F6201008150C2 /* ViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB2D191F8F6201008150C2 /* ViewController+Alerts.swift */; };
 		51CF15011F85003F00371B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF15001F85003F00371B6D /* AppDelegate.swift */; };
 		51CF15031F85003F00371B6D /* LastAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF15021F85003F00371B6D /* LastAlbumViewController.swift */; };
 		51CF15061F85003F00371B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CF15041F85003F00371B6D /* Main.storyboard */; };
@@ -117,6 +120,9 @@
 		5170A3281F8F58A700612C09 /* AlbumsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsFactory.swift; sourceTree = "<group>"; };
 		5170A32A1F8F590D00612C09 /* ConcertsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertsFactory.swift; sourceTree = "<group>"; };
 		5170A32C1F8F599200612C09 /* ImagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesFactory.swift; sourceTree = "<group>"; };
+		51AB2D151F8F613E008150C2 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		51AB2D171F8F615E008150C2 /* String+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Data.swift"; sourceTree = "<group>"; };
+		51AB2D191F8F6201008150C2 /* ViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Alerts.swift"; sourceTree = "<group>"; };
 		51CF14FD1F85003F00371B6D /* PastorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CF15001F85003F00371B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51CF15021F85003F00371B6D /* LastAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastAlbumViewController.swift; sourceTree = "<group>"; };
@@ -218,6 +224,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		51AB2D141F8F6126008150C2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				51AB2D151F8F613E008150C2 /* Reachability.swift */,
+				51AB2D191F8F6201008150C2 /* ViewController+Alerts.swift */,
+				51AB2D171F8F615E008150C2 /* String+Data.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		51CF14F41F85003F00371B6D = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +259,7 @@
 		51CF14FF1F85003F00371B6D /* PastorApp */ = {
 			isa = PBXGroup;
 			children = (
+				51AB2D141F8F6126008150C2 /* Utils */,
 				51CF15001F85003F00371B6D /* AppDelegate.swift */,
 				515694D41F8E6AEC00B7712F /* Models */,
 				515694BF1F8E678C00B7712F /* Controllers */,
@@ -483,11 +500,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PastorApp/Pods-PastorApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,7 +549,10 @@
 				51CF15031F85003F00371B6D /* LastAlbumViewController.swift in Sources */,
 				5170A3211F8F547C00612C09 /* TypeAlias.swift in Sources */,
 				515694CF1F8E692700B7712F /* SocialViewController.swift in Sources */,
+				51AB2D1A1F8F6201008150C2 /* ViewController+Alerts.swift in Sources */,
 				515694E01F8E722800B7712F /* Image.swift in Sources */,
+				51AB2D161F8F613E008150C2 /* Reachability.swift in Sources */,
+				51AB2D181F8F615E008150C2 /* String+Data.swift in Sources */,
 				5170A3231F8F54E000612C09 /* DownloadAllDataFakeImplementation.swift in Sources */,
 				5170A3291F8F58A700612C09 /* AlbumsFactory.swift in Sources */,
 				5170A31A1F8F4B3100612C09 /* Concert.swift in Sources */,

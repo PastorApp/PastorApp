@@ -18,6 +18,11 @@ class NewsCollectionViewController: UIViewController, UICollectionViewDataSource
         super.viewDidLoad()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        internetTest()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -35,5 +40,12 @@ class NewsCollectionViewController: UIViewController, UICollectionViewDataSource
         return newCell
         
     }
+
+    func internetTest(){
+        if !Reachability.isConnectedToNetwork(){
+            alertControllerToView(message: "Necesita tener acceso a internet para poder usar esta aplicacion")
+        }
+    }
+
     
 }

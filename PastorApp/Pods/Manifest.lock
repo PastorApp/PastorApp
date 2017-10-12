@@ -1,17 +1,20 @@
 PODS:
+  - ReachabilitySwift (3)
   - RSLoadingView (1.1.0)
   - SDWebImage (4.1.0):
     - SDWebImage/Core (= 4.1.0)
   - SDWebImage/Core (4.1.0)
 
 DEPENDENCIES:
+  - ReachabilitySwift
   - RSLoadingView
   - SDWebImage (~> 4.0)
 
 SPEC CHECKSUMS:
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   RSLoadingView: b9cdf4970da28e5d4b306784688e640696dd80d3
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
 
-PODFILE CHECKSUM: 50df334bc548fc03a92730134825f0ab16c55f5b
+PODFILE CHECKSUM: c412988ab764658bdd7ad166a99980cb71072529
 
 COCOAPODS: 1.3.1
