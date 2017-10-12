@@ -1,5 +1,5 @@
 //
-//  Videos.swift
+//  Images.swift
 //  PastorApp
 //
 //  Created by Alan Casas on 11/10/17.
@@ -8,13 +8,42 @@
 
 import Foundation
 
-final class Videos {
+final class Image {
     
-    let url: String
-    let thumbnail: String
-    
-    init(url: String, thumbnail: String) {
+    let url : String
+    let thumbnail :String
+    init(url:String, thumbnail:String) {
         (self.url, self.thumbnail) = (url, thumbnail)
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
